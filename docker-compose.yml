@@ -27,7 +27,7 @@ services:
     build: .
     container_name: nestjs_app
     environment:
-      DATABASE_HOST: localhost
+      DATABASE_HOST: 172.20.0.2
       DATABASE_PORT: 5432
       DATABASE_USER: postgres
       DATABASE_PASSWORD: password

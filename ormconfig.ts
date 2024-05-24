@@ -1,6 +1,7 @@
 import {config} from 'dotenv';
 
 config();
+console.log(process.env.DATABASE_HOST);
 
 module.exports = {
     type: 'postgres',
@@ -16,3 +17,5 @@ module.exports = {
     },
     synchronize: false,
   };
+
+  
